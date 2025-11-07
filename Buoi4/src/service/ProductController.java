@@ -67,6 +67,7 @@ public class ProductController {
     public void getAllProducts(){
         if (products.isEmpty()){
             System.out.println(Constant.ErrorMessage.EMPTY_ERROR);
+            return;
         }
 
         System.out.println(Constant.SuccessMessage.SHOW_SUCCUSS);

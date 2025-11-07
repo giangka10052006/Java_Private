@@ -1,9 +1,5 @@
 package constants;
 
-import domain.Product;
-
-import java.util.ArrayList;
-
 public class Constant {
     public static class INSERT{
         public static final String RAM = "Nhập RAM của laptop(GB): ";
