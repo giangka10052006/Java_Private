@@ -5,9 +5,15 @@ import service.UserService;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// service Điệp vụ 
+//Domain Ánh xạ từ database len
+// Constant hằng số
+//controller
+//helper
+
 public class Main{
     public static Scanner sc = new Scanner(System.in);
-    private static ArrayList<User> users = new ArrayList<>();
+    public static ArrayList<User> users = new ArrayList<>();
     public static void main(String[] args){
 
         users.add(new User("ducgiang", "123", "giang@gmail.com", "032618815"));
